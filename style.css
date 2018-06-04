@@ -5,11 +5,14 @@
 div
 {
 	font-size: 1.5em;
-/*	width: 75%;
-/**/	text-align: ;
-*/position: absolute;
+
+
 }
 .imga
 {
 	float: right;
+}
+.hori
+{
+	font-size: 1.5em;
 }
