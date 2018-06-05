@@ -4,6 +4,7 @@ table
     width:30%;
     display:inline-table;
     table-layout:fixed;
+    text-align: center;
 }
 td, th
 {
@@ -17,7 +18,40 @@ td, th
 {
 	text-align: right;
 }*/
-.list
+.img
 {
-	font-size: 3em;
+	float: left;
+}
+div
+{
+	font-size: 1.8em;
+
+
+}
+.imga
+{
+	float: right;
+}
+.hori
+{
+	font-size: 1.8em;
+	float:left; 
+}
+.align
+{
+	text-align: ;
+}
+pre
+{
+	font-style: normal;
+	font-family: New Type Roman
+}
+body
+{
+	/*background-color: gray;*/
+/*	background-image: url(../images.jpg);
+*/}
+.al
+{
+	text-align: center;
 }
