@@ -26,3 +26,12 @@ pre
 	font-style: normal;
 	font-family: New Type Roman
 }
+body
+{
+	background-color: gray;
+	background-image: url(images.jpg);
+}
+.al
+{
+	text-align: center;
+}
