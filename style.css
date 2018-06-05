@@ -15,4 +15,14 @@ div
 .hori
 {
 	font-size: 1.8em;
+	float:left; 
+}
+.align
+{
+	text-align: ;
+}
+pre
+{
+	font-style: normal;
+	font-family: New Type Roman
 }
