@@ -6,7 +6,7 @@
     <title> vision </title>
   </head>
   
-  <body>
+  <body margin >
 
  <!-- ENTETE DE L ECRAN D ACCEUIL -->
 
@@ -60,8 +60,95 @@
              ndiagadieng@gmail.com<br/>
      
      </div>
-     </p>                                                   
+     </p>   
+      <h1>ESAPCE MEMBRE </h1>
+   <fieldset style="background-image:url(conf.jpg) ">
+    <legend align ="center" style="font-size: 2em">Formulaire De Contact</legend>
+               
+       <form method="post" action="traitement.php">
+        <p>
+          <!------------------------------------ recuperation du nom   ---------------------------------->
+          <label for="nom">Votre Nom </label> : <input type="text" name="nom" id="nom" size="30" maxlength="30" value="" placeholder="exemple : diop"><br/><br/>
+          <!------------------------------------ recuperation du prenom   ---------------------------------->
+       <label for="prenom">Votre Prenom </label> : <input type="text" name="prenom" id="prenom" size="30" maxlength="25" value="" placeholder="exemple : saliou"><br/><br/>
+       <!------------------------------- recuperation du numero de téléphone --------------------------------->
+        <label for="num">Numero de Téléphone </label> : <code><input type="tel" name="num" id="num" size="30" maxlength="25" value="" placeholder="exemple : +221-77-241-25-68" > </code><br/><br/>
+        <!------------------------------------ recuperation d'address e-mail ------------------------------->
+         <label for="mail">Address Email </label> : <input type="email" name="mail" id="mail" size="40" maxlength="39" value="" placeholder="exemple : saliouseck2009@gmail.com"><br/><br/>
+         <label for="pseu">votre pseudonyme </label> : <input type="text" name="pseu" id="pseu" size="40" maxlength="39" value="" placeholder="exemple : saliouseck20"><br/><br/>
+         <label for="add">Address de livraison </label> : <input type="text" name="add" id="add" size="60" maxlength="60" value="" placeholder="exemple : Dakar,Parcelle Assainies,Unité 15,n"><br/><br/><br/>
+           </p>
+           <form method="post" action="trait.php">
+            <p>
+           
+            <fieldset>
+              <legend>SEXE</legend>
+              Votre Sexe : 
+             <input type="radio" name="a" id="m" > <label for="m">Masculin </label>
+            
+             <input type="radio" name="a" id="f" > <label for="f">Féminin </label>
 
+             <input type="radio" name="a" id="a" > <label for="a">Je préfère rester dans l'anonymat </label><br/>
+            </fieldset>
+            </p>
+          </form>
+         <fieldset>
+          <legend>PRODUIT DISPONIBLE</legend>
+          <p>
+
+            Les Produits de notre entreprise qui vous interesse : <br/><br/>
+            
+            <input type="checkbox" name="a" id="a" > <label for="a">T-shirt </label>
+            <input type="checkbox" name="b" id="b" > <label for="b">Survetement </label>
+            <input type="checkbox" name="c" id="c" > <label for="c">Casquette </label><br/><br/>
+
+            <input type="checkbox" name="d" id="d" > <label for="d"> Film de Mangas </label>
+            <input type="checkbox" name="a" id="a" > <label for="a">Mangas </label>
+            <input type="checkbox" name="a" id="a" > <label for="a">voir tout  </label><br/><br/>
+            
+          </p>
+         </fieldset>
+        </p> 
+       </form> 
+       
+       <form method="post" action="traitement.php">
+          <p>
+          <label for="pays">choisissez votre region </label><br />
+          <select name="region" id="region" >
+              <option value="Dakar">Dakar</option>
+              <option value="Thiès">Thiès</option>
+              <option value="Kaolack">Kaolack</option>
+              <option value="Kolda">Kolda</option>
+              <option value="Saint Louis">Saint Louis</option>
+              <option value="Fatick">Fatick</option>
+              <option value="Tambacounda">Tambacounda</option>
+              <option value="Kédougou">Kédougou</option>
+              <option value="Ziguinchor">Ziguinchor</option>
+              <option value="Kaffrine">Kaffrine</option>
+              <option value="Sedhiou">Sedhiou</option>
+              <option value="Matam">Matam</option>
+              <option value="Ziguinchor">Ziguinchor</option>
+              <option value="Ziguinchor">Ziguinchor</option>
+          </select>
+          </p>
+       </form>
+
+       <form method="post" action="traitement.php">
+        <p>
+          <input type="checkbox" name="mail" id="mail"><label>cocher pour recevoir nos annonces par mail</label>
+        </p>
+       </form>
+<!-- ------------------------------------envoie du formulaire ----------------------------------------->
+        <br>
+  <p align="center">
+   <a href="contact.html"> <input type="reset" value="remettre à zero ">
+    <a href="terminer.html"> <input type="submit" value="Envoyer" title="clicker Pour Envoyer" /> </a>
+  </p>
+  </fieldset>
+ 
+  </body>
+</html> 
+    
 
   </body>
 </html> 
