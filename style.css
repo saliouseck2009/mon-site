@@ -19,7 +19,7 @@ div
 }
 .align
 {
-	text-align: ;
+	text-align:normal ;
 }
 pre
 {
@@ -35,4 +35,8 @@ body
 .al
 {
 	text-align: center;
+}
+li 
+{
+	font-size: 3em;
 }
