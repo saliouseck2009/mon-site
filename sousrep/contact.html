@@ -62,10 +62,11 @@
      </div>
      </p>   
       <h1>ESAPCE MEMBRE </h1>
+      <form method="post" action="traitement.php"> 
    <fieldset style="background-image:url(conf.jpg) ">
     <legend align ="center" style="font-size: 2em">Formulaire De Contact</legend>
                
-       <form method="post" action="traitement.php">
+    <form method="post" action="traitement.php">
         <p>
           <!------------------------------------ recuperation du nom   ---------------------------------->
           <label for="nom">Votre Nom </label> : <input type="text" name="nom" id="nom" size="30" maxlength="30" value="" placeholder="exemple : diop"><br/><br/>
@@ -141,11 +142,12 @@
 <!-- ------------------------------------envoie du formulaire ----------------------------------------->
         <br>
   <p align="center">
-   <a href="contact.html"> <input type="reset" value="remettre à zero ">
+    <input type="reset" value="remettre à zero ">
     <a href="terminer.html"> <input type="submit" value="Envoyer" title="clicker Pour Envoyer" /> </a>
   </p>
+
   </fieldset>
- 
+</form> 
   </body>
 </html> 
     
